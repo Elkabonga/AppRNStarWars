@@ -1,0 +1,12 @@
+{
+  "name": "AppRNStarWars",
+  "displayName": "AppRNStarWars",
+  "expo": {
+    "name": "AppRNStarWars",
+    "slug": "AppRNStarWars",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
