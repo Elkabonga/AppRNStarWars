@@ -1,14 +1,17 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const View = styled.View`
-  flex: 1;
-  background-color: #fff;
+  background-color: #3F3639;
   align-items: center;
   justify-content: center;
+  height: 80px;
+  width:100%;
+  padding-top: 20px;
 `;
 
 export const Title = styled.Text`
-  color: #000;
+  color: yellow;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: bold;
 `;

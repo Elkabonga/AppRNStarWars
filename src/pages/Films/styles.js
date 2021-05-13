@@ -5,14 +5,11 @@ export const View = styled.View`
   flex: 1;
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center;
+  background-color: #4C596E;
   border: 5px solid #312e38;
 `;
 
 export const Container = styled.View`
-  flex: 1;
   background-color: #fff;
   align-items: center;
   justify-content: center;
