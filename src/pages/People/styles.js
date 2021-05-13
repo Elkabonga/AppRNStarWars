@@ -5,19 +5,21 @@ export const View = styled.View`
   flex: 1;
   width: 100%;
   height: 100%;
-  background-color: #4C596E;
+  background-color: #4c596e;
   border: 5px solid #312e38;
 `;
 
 export const Container = styled.View`
-  background-color: #fff;
+  background-color: #3f3639;
   align-items: center;
   justify-content: center;
-  border: 5px solid red;
+  margin-top: 20px;
 `;
 
-export const Title = styled.Text`
-  color: #000;
+export const Text = styled.Text`
+  color: white;
+  font-weight:bold;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  margin:10px;
 `;
