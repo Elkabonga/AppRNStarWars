@@ -1,6 +1,6 @@
 # AppRNStarWars
 
-# Instalar o Projeto
+## Instalar o Projeto
 npm install
 
 # Rodar o Servidor
