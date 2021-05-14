@@ -11,13 +11,13 @@ export default function Home({ navigation }) {
         <S.Text>Clique abaixo e que a força esteja com você!</S.Text>
       </S.Container>
       <S.Container>
-        <TouchableOpacity onPress={() => navigation.navigate('Films')}>
-          <S.Text>Filmes</S.Text>
+        <TouchableOpacity onPress={() => navigation.navigate('People')}>
+          <S.Text>Personagens</S.Text>
         </TouchableOpacity>
       </S.Container>
       <S.Container>
-        <TouchableOpacity onPress={() => navigation.navigate('People')}>
-          <S.Text>Pessoas</S.Text>
+        <TouchableOpacity onPress={() => navigation.navigate('Films')}>
+          <S.Text>Filmes</S.Text>
         </TouchableOpacity>
       </S.Container>
     </S.View>

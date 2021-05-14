@@ -5,8 +5,7 @@ export const View = styled.View`
   flex: 1;
   width: 100%;
   height: 100%;
-  background-color: #4c596e;
-  border: 5px solid #312e38;
+  border: 5px solid #ffffff;
 `;
 
 export const Container = styled.View`

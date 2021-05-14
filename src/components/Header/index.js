@@ -6,7 +6,7 @@ import * as S from './styles'
 function Header({ children }) {
   return (
     <S.View>
-      <S.Title>App Star Wars</S.Title>
+      <S.Title>App Star Wars Wiki</S.Title>
       {children}
       <StatusBar barStyle="light-content" />
     </S.View>
