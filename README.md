@@ -1,5 +1,7 @@
 # AppRNStarWars
 
-Instalar o Projeto no temrinal: npm install
+# Instalar o Projeto
+npm install
 
-Rodar o Servidor: yarn web
+# Rodar o Servidor
+yarn web
