@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TouchableOpacity, Button, View, Text } from 'react-native'
 import Header from '../../components/Header'
 import api from '../../services/api'
@@ -6,7 +6,7 @@ import * as S from './styles'
 
 export default function People({ navigation }) {
 
-  const [peoples, setPeoples] = React.useState([])
+  const [peoples, setPeoples] = useState([])
 
   useEffect(() => {
     api.get('/people').then((response) => {
