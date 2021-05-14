@@ -22,3 +22,11 @@ export const Text = styled.Text`
   font-size: 18px;
   margin:10px;
 `;
+
+export const TextAnimado = styled.Text`
+  color: black;
+  font-weight:bold;
+  text-align: center;
+  font-size: 20px;
+  margin:10px;
+`;
