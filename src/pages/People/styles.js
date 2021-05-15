@@ -15,6 +15,13 @@ export const Container = styled.View`
   margin-top: 20px;
 `;
 
+export const ContainerBack = styled.View`
+  background-color: #3f3639;
+  align-items: center;
+  justify-content: center;
+  border:10px solid white;
+`;
+
 export const Text = styled.Text`
   color: white;
   font-weight:bold;

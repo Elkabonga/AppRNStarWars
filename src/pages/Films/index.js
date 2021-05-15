@@ -39,11 +39,11 @@ export default function Films({ navigation }) {
           )
         })}
 
-        <S.Container>
+        <S.ContainerBack>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <S.Text>Voltar</S.Text>
           </TouchableOpacity>
-        </S.Container>
+        </S.ContainerBack>
       </ScrollView>
     </S.View >
   );
